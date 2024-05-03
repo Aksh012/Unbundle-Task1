@@ -21,8 +21,44 @@
     object-fit: cover;
 }
 
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
 @media (max-width: 768px) {
     .navbar .form-inline .form-control {
         width: 70%;
     }
+}
+
+@media (max-width: 375px) {
+    .btnsm{
+        width: 70px;
+    }
+
+    .srch{
+        width: 100px;
+        height: 50px;
+    }
+    .frm{
+        width: 100px;
+    }
+}
+
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center;
 }
