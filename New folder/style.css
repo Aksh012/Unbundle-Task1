@@ -1,0 +1,28 @@
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar .form-inline {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar .form-inline .form-control {
+    width: 100%;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .navbar .form-inline .form-control {
+        width: 70%;
+    }
+}
